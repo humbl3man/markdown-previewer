@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { marked as mdParser } from 'marked';
 import dompurify from 'dompurify';
-import Prism from 'prismjs';
 
 mdParser.setOptions({
   renderer: new mdParser.Renderer(),
